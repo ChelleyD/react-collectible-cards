@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import PageHead from './components/PageHead'
+
 
 function App() {
+  const char_info = [
+    {
+      name: "Vi",
+      avatar: "Zaun",
+      image: "",
+      species: "Human",
+      year_of_origin: "970 AN - 973 AN",
+      weopans: ["Atlas Gauntlets", "Blast Shield"]
+    }
+  ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <PageHead />
     </div>
   );
 }
