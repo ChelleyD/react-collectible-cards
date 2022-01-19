@@ -9,7 +9,6 @@ import Jayce from "../images/Jayce.jpeg";
 import Jinx from "../images/Jinx.jpeg";
 import Mel from "../images/Mel.jpeg";
 import Silco from "../images/Silco.png";
-import Grid from '@mui/material/Grid';
 
 function CardBody() {
     const char_info = [
@@ -64,12 +63,11 @@ function CardBody() {
         char_info.map((info) => {
             return (
                 <Card className='cardBody' sx={{
-                    maxWidth: 290,
+                    width: 290,
                     height: "100%",
                     boxShadow: 2,
                     border: 5,
-                    borderColor: "#CEC7C0",
-                    backgroundColor:"#799496"
+                    borderColor: "#CEC7C0"
                 }}>
     
                     <CardHead name={info.name} avatar={info.avatar}/>
@@ -88,7 +86,6 @@ function CardBody() {
                         abilities={info.abilities}
                     /> 
                 </Card>
-                
             );
         })    
     );

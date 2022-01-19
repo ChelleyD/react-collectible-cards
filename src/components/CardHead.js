@@ -10,6 +10,7 @@ function CardHead({
             <Typography gutterBottom variant="h4" component="div">
                 {name}
             </Typography>
+            
             <Avatar 
                 alt="Zaun crest" 
                 src={avatar} 
