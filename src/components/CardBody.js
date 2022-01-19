@@ -16,6 +16,7 @@ function CardBody() {
           name: "Vi",
           avatar: ZaunCrest,
           image: Vi,
+          alt: "Violet from Arcane",
           species: "Human",
           year_of_origin: "970 AN - 973 AN",
           abilities: ["Brawler", "Leader", "Detective"]
@@ -24,6 +25,7 @@ function CardBody() {
             name: "Jinx (Powder)",
             avatar: ZaunCrest,
             image: Jinx,
+            alt: "Jinx from Arcane",
             species: "Chemically Altered Human",
             year_of_origin: "975 AN",
             abilities: ["Inventor"]
@@ -32,6 +34,7 @@ function CardBody() {
             name: "Silco",
             avatar: ZaunCrest,
             image: Silco,
+            alt: "Silco from Arcane",
             species: "Chemically Altered Human",
             year_of_origin: "956 AN - 961 AN",
             abilities: ["Leader", "Teacher"]
@@ -40,6 +43,7 @@ function CardBody() {
             name: "Jayce Talis",
             avatar: PiltoverCrest,
             image: Jayce,
+            alt: "Jayce from Arcane",
             species: "Human",
             year_of_origin: "963 AN - 966 AN",
             abilities: ["Diplomacy", "Inventor"]
@@ -48,6 +52,7 @@ function CardBody() {
             name: "Mel Medarda",
             avatar: PiltoverCrest,
             image: Mel,
+            alt: "Mel from Arcane",
             species: "Human",
             year_of_origin: "963 AN - 966 AN",
             abilities: ["Diplomacy", "Painting"]
@@ -70,7 +75,7 @@ function CardBody() {
                     component="img"
                     height="225"
                     image={info.image}
-                    alt="violet from arcane"
+                    alt={info.alt}
                     className='charImg'
                 /> 
 
