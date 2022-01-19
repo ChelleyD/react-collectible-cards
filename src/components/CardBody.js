@@ -1,8 +1,5 @@
-import { Grid } from '@mui/material';
 import Card from '@mui/material/Card';
-// import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-// import Typography from '@mui/material/Typography';
 import CardHead from './CardHead';
 import CardSpecs from './CardSpecs';
 import ZaunCrest from "../images/ZaunCrest.png";
@@ -12,7 +9,6 @@ import Jayce from "../images/Jayce.jpeg";
 import Jinx from "../images/Jinx.jpeg";
 import Mel from "../images/Mel.jpeg";
 import Silco from "../images/Silco.png";
-// import Grid from '@mui/material/Grid';
 
 function CardBody() {
     const char_info = [

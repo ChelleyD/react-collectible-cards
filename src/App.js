@@ -10,8 +10,7 @@ function App() {
 
       <Grid container spacing={2} className='cards'> 
         <CardBody />
-      </Grid>
-      
+      </Grid> 
     </div>
   );
 }
