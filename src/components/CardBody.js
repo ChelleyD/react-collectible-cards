@@ -64,8 +64,6 @@ function CardBody() {
             return (
                 <Card className='cardBody' sx={{
                     width: 290,
-                    height: "100%",
-                    boxShadow: 2,
                     border: 5,
                     borderColor: "#CEC7C0"
                 }}>
