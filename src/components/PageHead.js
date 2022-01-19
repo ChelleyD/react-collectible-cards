@@ -3,13 +3,13 @@ import Typography from '@mui/material/Typography';
 function PageHead() {
     return (
         <div className='pageHead'>
-            <Typography variant="h1" component="div" gutterBottom>
+            <Typography variant="h1" component="div" >
                 ARCANE 
             </Typography>
-            <Typography variant="h2" gutterBottom component="div">
-            LEAGUE OF LEGENDS
+            <Typography variant="h2" component="div">
+                LEAGUE OF LEGENDS
             </Typography>
-            <Typography variant="h2" gutterBottom component="div">
+            <Typography variant="h2"  gutterBottom component="div">
                 Trading Cards
             </Typography>
         </div>

@@ -2,6 +2,43 @@
   text-align: center;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
 .pageHead {
-  color: #ffc107;
+  color: #CEC7C0;
+  margin-top: 2rem;
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  color: #0F1628;
+}
+
+.charImg {
+  /* object-fit: cover; */
+  object-position: top;
+}
+
+.cardSpecs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  color: #0F1628;
+  text-align: start;
+}
+
+.specs {
+  padding: 0.2rem;
+}
+
+.cardBody {
+  background-color: #ffecb3;
+  margin-top: 5rem;
 }

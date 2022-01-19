@@ -1,22 +1,17 @@
 import './App.css';
 import PageHead from './components/PageHead'
-
+import CardBody from './components/CardBody';
+import Grid from '@mui/material/Grid';
 
 function App() {
-  const char_info = [
-    {
-      name: "Vi",
-      avatar: "Zaun",
-      image: "",
-      species: "Human",
-      year_of_origin: "970 AN - 973 AN",
-      weopans: ["Atlas Gauntlets", "Blast Shield"]
-    }
-  ]
-
   return (
     <div className='App'>
       <PageHead />
+
+      <Grid container spacing={2} className='cards'> 
+        <CardBody />
+      </Grid>
+      
     </div>
   );
 }
