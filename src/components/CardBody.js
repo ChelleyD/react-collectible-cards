@@ -9,6 +9,7 @@ import Jayce from "../images/Jayce.jpeg";
 import Jinx from "../images/Jinx.jpeg";
 import Mel from "../images/Mel.jpeg";
 import Silco from "../images/Silco.png";
+import Grid from '@mui/material/Grid';
 
 function CardBody() {
     const char_info = [
@@ -22,7 +23,7 @@ function CardBody() {
           abilities: ["Brawler", "Leader", "Detective"]
         },
         {
-            name: "Jinx (Powder)",
+            name: "Jinx",
             avatar: ZaunCrest,
             image: Jinx,
             alt: "Jinx from Arcane",
@@ -63,28 +64,31 @@ function CardBody() {
         char_info.map((info) => {
             return (
                 <Card className='cardBody' sx={{
-                    width: 290,
+                    maxWidth: 290,
+                    height: "100%",
                     boxShadow: 2,
                     border: 5,
-                    borderColor: "#CEC7C0"
+                    borderColor: "#CEC7C0",
+                    backgroundColor:"#799496"
                 }}>
-        
-                <CardHead name={info.name} avatar={info.avatar}/>
+    
+                    <CardHead name={info.name} avatar={info.avatar}/>
 
-                <CardMedia
-                    component="img"
-                    height="225"
-                    image={info.image}
-                    alt={info.alt}
-                    className='charImg'
-                /> 
+                    <CardMedia
+                        component="img"
+                        height="225"
+                        image={info.image}
+                        alt={info.alt}
+                        className='charImg'
+                    /> 
 
-                <CardSpecs 
-                    species={info.species} 
-                    year_of_origin={info.year_of_origin}
-                    abilities={info.abilities}
-                /> 
+                    <CardSpecs 
+                        species={info.species} 
+                        year_of_origin={info.year_of_origin}
+                        abilities={info.abilities}
+                    /> 
                 </Card>
+                
             );
         })    
     );

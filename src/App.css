@@ -1,15 +1,10 @@
 .App {
   text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-around;
+  padding: 2rem;
 }
 
 .pageHead {
   color: #CEC7C0;
-  margin-top: 2rem;
 }
 
 .cardHead {
@@ -21,7 +16,6 @@
 }
 
 .charImg {
-  /* object-fit: cover; */
   object-position: top;
 }
 
@@ -41,4 +35,9 @@
 .cardBody {
   background-color: #ffecb3;
   margin-top: 5rem;
+}
+
+.cd {
+  display: flex;
+  justify-content: space-around;
 }
