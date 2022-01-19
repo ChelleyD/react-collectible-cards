@@ -8,9 +8,9 @@ function App() {
     <div className='App'>
       <PageHead />
 
-      <div className='cd'>
+      <Grid container className='cd'>
         <CardBody />
-      </div>
+      </Grid>
     </div>
   );
 }
