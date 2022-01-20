@@ -7,14 +7,14 @@ function CardHead({
 }) {
     return (
         <div className='cardHead' style={{backgroundColor:"#799496"}}>
-            <Typography gutterBottom variant="h4" component="div">
+            <Typography gutterBottom variant="h3" component="div">
                 {name}
             </Typography>
-            
+
             <Avatar 
                 alt="Zaun crest" 
                 src={avatar} 
-                sx={{ width: 56, height: 56 }}
+                sx={{ width: 65, height: 65 }}
             />
         </div>
     );
