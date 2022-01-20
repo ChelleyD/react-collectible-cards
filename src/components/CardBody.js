@@ -153,7 +153,7 @@ function CardBody() {
 
               <CardMedia
                 component="img"
-                height="400"
+                height="450"
                 image={info.image}
                 alt={info.alt}
                 className="charImg"
