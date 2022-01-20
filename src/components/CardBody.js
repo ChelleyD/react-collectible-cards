@@ -136,7 +136,7 @@ function CardBody() {
   });
 
   return (
-    <Swiper effect={"cards"} grabCursor={true} className="mySwiper" cardsEffect={{slideShadows:false, shadow: false}}>
+    <Swiper effect={"cards"} grabCursor={true} className="mySwiper">
       {sorted.map((info) => {
         return (
           <SwiperSlide>
