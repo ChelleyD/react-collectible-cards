@@ -15,7 +15,7 @@ import Heimerdinger from "../images/Heimerdinger.JPG";
 import Singed from "../images/Singed.JPG";
 import Vander from "../images/Vander.JPG";
 import Viktor from "../images/Viktor.jpg";
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
